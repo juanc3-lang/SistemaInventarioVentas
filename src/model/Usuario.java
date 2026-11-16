@@ -1,0 +1,39 @@
+package model;
+
+public class Usuario {
+    private int idUsuario;
+    private String nombreUsuario;
+    private String contrasena;
+    private String nombreCompleto;
+    private String rol;
+    private int activo;
+
+    public Usuario() {}
+
+    public Usuario(int idUsuario, String nombreUsuario, String contrasena, String nombreCompleto, String rol, int activo) {
+        this.idUsuario = idUsuario;
+        this.nombreUsuario = nombreUsuario;
+        this.contrasena = contrasena;
+        this.nombreCompleto = nombreCompleto;
+        this.rol = rol;
+        this.activo = activo;
+    }
+
+    public int getIdUsuario() { return idUsuario; }
+    public void setIdUsuario(int idUsuario) { this.idUsuario = idUsuario; }
+
+    public String getNombreUsuario() { return nombreUsuario; }
+    public void setNombreUsuario(String nombreUsuario) { this.nombreUsuario = nombreUsuario; }
+
+    public String getContrasena() { return contrasena; }
+    public void setContrasena(String contrasena) { this.contrasena = contrasena; }
+
+    public String getNombreCompleto() { return nombreCompleto; }
+    public void setNombreCompleto(String nombreCompleto) { this.nombreCompleto = nombreCompleto; }
+
+    public String getRol() { return rol; }
+    public void setRol(String rol) { this.rol = rol; }
+
+    public int getActivo() { return activo; }
+    public void setActivo(int activo) { this.activo = activo; }
+}
